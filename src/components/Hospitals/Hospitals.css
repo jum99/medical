@@ -1,0 +1,12 @@
+.select-div {
+  display: flex;
+}
+
+@media (max-width: 768px) {
+  .select-div {
+    flex-direction: column;
+  }
+  .hospital-card {
+    flex-direction: column;
+  }
+}

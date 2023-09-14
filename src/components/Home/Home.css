@@ -1,0 +1,115 @@
+.service-card {
+  width: 150px;
+  padding: 10px;
+  text-align: center;
+  box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.05);
+  border-radius: 10px;
+}
+.service-card img {
+  width: 50%;
+}
+.top-btn {
+  background-color: white;
+  padding: 2px 5px;
+  border: 1px solid rgba(238, 238, 238, 1);
+  border-radius: 4px;
+  color: rgba(46, 82, 160, 1);
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.treatment-card {
+  width: 160px;
+  padding: 15px 0px;
+  border: 1px solid rgba(238, 238, 238, 1);
+  text-align: center;
+  margin-left: 10px;
+  border-radius: 10px;
+}
+.select-country {
+  border: 1px solid rgba(46, 82, 160, 1);
+  color: rgba(46, 82, 160, 1);
+}
+.home-hospital-card {
+  width: 80%;
+}
+.home-hospital img {
+  width: 100%;
+}
+.view-btn {
+  padding: 10px 15px;
+  color: rgba(46, 82, 160, 1);
+  border: 1px solid rgba(46, 82, 160, 1);
+  border-radius: 5px;
+  background-color: white;
+}
+
+.home-patient-card {
+  width: 80%;
+}
+.home-patient img {
+  width: 100%;
+}
+
+.home-stories-card {
+  width: 90%;
+}
+.home-stories-card img {
+  width: 100%;
+}
+.stories-small-card img {
+  width: 170px;
+}
+.certified img {
+  width: 70%;
+}
+
+.surgical-treatment {
+  background-color: #2e52b4;
+  color: white;
+  padding: 30px 30px;
+  border-radius: 10px;
+}
+.call-img {
+  background-color: white;
+  padding: 15px;
+  border-radius: 50%;
+}
+.white-btn {
+  background: transparent;
+  border: 1px solid white;
+  color: white;
+  padding: 5px 15px;
+  border-radius: 5px;
+}
+
+.package-card {
+  width: 90%;
+  padding: 10px;
+  border: 1px solid rgba(227, 227, 227, 1);
+  border-radius: 10px;
+}
+.top-doctor-card {
+  width: 95%;
+  padding: 10px;
+  border: 1px solid rgba(227, 227, 227, 1);
+  border-radius: 10px;
+}
+.top-doctor-card p {
+  font-size: 14px;
+}
+.top-doctor-card h6 {
+  color: rgba(213, 69, 81, 1);
+}
+
+@media (max-width: 768px) {
+  .certified img {
+    width: 50px;
+  }
+  .package-card {
+    flex-direction: column;
+  }
+  .top-doctor-card {
+    flex-direction: column;
+  }
+}
